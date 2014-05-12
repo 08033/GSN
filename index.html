@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <script src="Scripts/angular.js" type="text/javascript"></script>    
+    <link href="StyleSheets/Style.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/GSN.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <!--<h1>Hello Plunker! {{person}}</h1>!-->
+    <div ng-controller="organization">
+        <table style="width:100%;">
+          <tr>
+          <td style="width:70%;">
+                <img src="Images/GSN.jpg" style="width:90%;" />      
+            </td>
+            <td style="width:30%;">
+              <span>Welcome to GSN</span></br>
+              <form method="get" action="info.aspx">
+                <input type="text" name="txtId" id="txtId" value="" placeholder="id (e.g: abc@xyz.com)" required /><br/>
+                <input type="password" name="txtpwd" id="txtpwd" value="" placeholder="password" required />
+                <br/>
+                <button type="submit">SignIn</button>
+                <!--<button type="submit" onclick="alert('New at GSN, create account')">SignUp</button>         
+                <label for="ddSelect">Select</label>
+                <select name="ddSelect" id="ddSelect">
+                  <option value="1">Option1</option>
+                  <option value="2">Option2</option>
+                </select>        
+                <br/><label for="" onclick="alert('Reset password')">Forgot password</label>!-->
+              </form>
+              <!--</br><input type="search" name="" id="" placeholder="search person" />!-->
+              </td>   
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>
