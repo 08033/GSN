@@ -1,0 +1,38 @@
+/* Styles go here */
+
+body{
+  background-color:rgb(56,52,81);
+  color:white;
+}
+
+.heading{
+    color:blue;
+}
+#dvMenu
+{
+    text-align:center;
+}
+
+#dvMenu ul li
+{
+    border:1px solid #666;        
+    display:inline;    
+    padding:10px;
+}
+#dvMenu ul li:hover
+{
+    background-color:#555;
+    cursor:pointer;
+}
+
+a{color:White;}
+a:hover{color:#666;}
+
+.chatHistory
+{
+    background-color:White;
+    color:#666;
+    min-height:75px;
+    width:70%;
+    padding-left:5px;       
+}
