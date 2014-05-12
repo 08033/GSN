@@ -4,6 +4,4 @@ GSN
 Graduate Social Network
 
 Features: 
--> Profile \n 
--> FShare (File sharing) \n
--> Grad Chat (Chat forum)
+ Profile, FShare (File sharing), Grad Chat (Chat forum).
