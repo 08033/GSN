@@ -10,7 +10,9 @@
 <body >
 	<table width="100%" cellspacing="0" cellpadding="0" >
 		<tr > 
-			<td class="header" colspan="3"> GSN </td>		
+			<td class="header" colspan="3"> 
+                            <img src="GSN_logo.png"/>  GSN
+                                                     		
 		</tr>
 		<tr > 
 			<td width="15%"> Navigation Panel </td>
@@ -22,4 +24,4 @@
 	</table>
 
 </body>
-</html>
+</html>	 	
